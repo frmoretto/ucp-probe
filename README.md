@@ -2,7 +2,7 @@
 
 **What a permissionless agent can actually do on a live Shopify store.**
 
-A tiny, dependency-free research probe that walks Shopify's new agentic-commerce surface (UCP / MCP) on a **live, named** storefront, as an **unsigned, anonymous** agent — no API key, no merchant permission, no installed app, ~one file of code.
+A tiny, dependency-free research probe that walks Shopify's new agentic-commerce surface (UCP / MCP) on a **live, named** storefront, as an **unsigned, anonymous** agent — no API key, no installed app, no credentials of any kind (only the anonymous access Shopify's design permits), ~one file of code.
 
 > ⚠️ **This is a read + cart research probe. It does NOT complete purchases.** It stops at Shopify's documented buyer-approval gate and never calls `complete_checkout`. No payment instruments, no PII, no orders.
 

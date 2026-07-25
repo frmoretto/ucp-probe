@@ -1,6 +1,6 @@
 # Findings — live UCP probe
 
-**Run:** 2026-05-31 · **Target:** `allbirds.com` (live, named Shopify storefront) · **Agent:** unsigned, self-hosted JSON profile, no key, no permission, no installed app.
+**Run:** 2026-05-31 · **Target:** `allbirds.com` (live, named Shopify storefront) · **Agent:** unsigned, self-hosted JSON profile, no key, no installed app, no credentials — only the anonymous access Shopify's design permits.
 
 All values below were captured live from primary endpoints. This is a read + cart probe; `complete_checkout` was never called and nothing was purchased.
 

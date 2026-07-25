@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 ucp-probe — walk a live Shopify store's agentic (UCP / MCP) surface as an
-UNSIGNED, ANONYMOUS agent: no API key, no merchant permission, no installed app.
+UNSIGNED, ANONYMOUS agent: no API key, no installed app, no credentials —
+using only the anonymous access Shopify's own design permits.
 
 It demonstrates, on a real named storefront, that:
   - discovery (robots.txt -> llms.txt -> agents.md -> /.well-known/ucp) is open,
